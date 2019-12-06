@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    min-height: 100%;
+}
+nav.mynav{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    .mynav-link{
+        color: white;
+        padding: 0 1.2em;
+        line-height: 56px;
+        &.active{
+            border-bottom: 1.2px solid white;
+        }
+        &:hover{
+            text-decoration: none;
+            background: rgba($color: white, $alpha: 0.1)
+        }
+    }
+}
+.hero{
+    padding-top: 8.4em;
+    background: rgb(191,95,130);
+    background: linear-gradient(187deg, rgba(191,95,130,1) 0%, rgba(191,95,130,1) 24%, rgba(239,154,154,1) 100%);
+    height: 100%;
+    &.education{
+        background: rgb(132, 95, 191);
+        background: linear-gradient(187deg, rgb(132, 95, 191) 0%, rgb(132, 95, 191) 24%, rgb(154, 191, 239) 100%);
+    }
+    &.skill{
+        background: rgb(191, 125, 95);
+        background: linear-gradient(187deg, rgb(191, 125, 95) 0%, rgb(191, 125, 95) 24%, rgb(239, 212, 154) 100%);
+    }
+    &.experience{
+        background: rgb(95, 191, 124);
+        background: linear-gradient(187deg, rgb(95, 191, 124) 0%, rgb(95, 191, 124) 24%, rgb(154, 219, 239) 100%);
+    }
+    &.contact{
+        background: rgb(153, 95, 191);
+        background: linear-gradient(187deg, rgb(153, 95, 191) 0%, rgb(153, 95, 191) 24%, rgb(239, 154, 201) 100%);
+    }
+    .container{
+        width: 100%;
+        padding-bottom: 4.8em;
+        .hero-pic{
+            .hero-img{
+                width: 21.6em;
+                height: 21.6em;
+                border-radius: 50%;
+                border: 1px solid rgba($color: #000000, $alpha: 0.125);
+                box-shadow: 3px 5px 7px 1px rgba(0,0,0,0.18);
+                overflow: hidden;
+                background: white;
+                img{
+                    height: 90%;
+                }
+            }
+            .hero-fa{                
+                color: white;
+                width: 21.6em;
+                height: 21.6em;
+            }
+        }
+        .hero-text{
+            color: white;
+            font-weight: 300;
+            h4{
+                line-height: 1.4em;
+                font-weight: 300;
+            }
+        }
+    }
+    .more{
+        position: relative;
+        top: 48px;
+        margin: auto;
+        height: 96px;
+        width: 96px;
+        border-radius: 50%;
+        color: #e57373;
+        background: white;
+    }
+}

@@ -1,0 +1,3 @@
+Jalanin php artisan migrate:fresh
+php artisan db:seed
+login dengan aqil@test.com 123456

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+nav.mynav {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 56px;
+}
+
+nav.mynav .mynav-link {
+  color: white;
+  padding: 0 1.2em;
+  line-height: 56px;
+}
+
+nav.mynav .mynav-link.active {
+  border-bottom: 1.2px solid white;
+}
+
+nav.mynav .mynav-link:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.hero {
+  padding-top: 8.4em;
+  background: #bf5f82;
+  background: linear-gradient(187deg, #bf5f82 0%, #bf5f82 24%, #ef9a9a 100%);
+  height: 100%;
+}
+
+.hero.education {
+  background: #845fbf;
+  background: linear-gradient(187deg, #845fbf 0%, #845fbf 24%, #9abfef 100%);
+}
+
+.hero.skill {
+  background: #bf7d5f;
+  background: linear-gradient(187deg, #bf7d5f 0%, #bf7d5f 24%, #efd49a 100%);
+}
+
+.hero.experience {
+  background: #5fbf7c;
+  background: linear-gradient(187deg, #5fbf7c 0%, #5fbf7c 24%, #9adbef 100%);
+}
+
+.hero.contact {
+  background: #995fbf;
+  background: linear-gradient(187deg, #995fbf 0%, #995fbf 24%, #ef9ac9 100%);
+}
+
+.hero .container {
+  width: 100%;
+  padding-bottom: 4.8em;
+}
+
+.hero .container .hero-pic .hero-img {
+  width: 21.6em;
+  height: 21.6em;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: 3px 5px 7px 1px rgba(0, 0, 0, 0.18);
+          box-shadow: 3px 5px 7px 1px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+  background: white;
+}
+
+.hero .container .hero-pic .hero-img img {
+  height: 90%;
+}
+
+.hero .container .hero-pic .hero-fa {
+  color: white;
+  width: 21.6em;
+  height: 21.6em;
+}
+
+.hero .container .hero-text {
+  color: white;
+  font-weight: 300;
+}
+
+.hero .container .hero-text h4 {
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.hero .more {
+  position: relative;
+  top: 48px;
+  margin: auto;
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  color: #e57373;
+  background: white;
+}
+/*# sourceMappingURL=mystyle.css.map */
